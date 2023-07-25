@@ -1,6 +1,7 @@
 # BulkMSS - Bulk Email Sender Script
 
 ![GitHub](https://img.shields.io/github/license/your_username/bulk-email-sender) 
+![GitHub last commit](https://img.shields.io/github/last-commit/Ill-u/bulkSSM)
 
 ## Description
 
