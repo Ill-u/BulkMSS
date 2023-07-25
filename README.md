@@ -14,6 +14,7 @@ This is a Ruby script for sending bulk emails using multiple SMTP servers and mu
 
 - Ruby (tested with Ruby 2.6.0 or higher)
 - Required Ruby Gems: `net/smtp`, `timeout`, `logger`, `colorize`, `optparse`, `concurrent`, and `set`
+- Use gem install package name
 
 ## Usage
 
