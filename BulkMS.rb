@@ -33,7 +33,7 @@ def send_email(smtp_address, smtp_port, username, password, recipient, sender_na
           f.puts "MIME-Version: 1.0"
           f.puts "Content-Type: text/html; charset=UTF-8"
           f.puts
-          f.puts message.encode('utf-8', 'iso-8859-1') # Encode message content correctly
+          f.puts message.force_encoding('UTF-8') # Encode message content correctly
         end
         puts "Sent email to #{recipient} by #{smtp_address}".colorize(:green)
         success = true
