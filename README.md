@@ -17,9 +17,9 @@ This is a Ruby script for sending bulk emails using multiple SMTP servers and mu
 
 ## Usage
 
-1. Clone this repository or download the `bulkMSS.rb` script.
-
-2. Create the following input files:
+1. Clone this repository or download the `bulkMSS.rb` script.   ```bash
+git clone https://github.com/Ill-u/BulkMSS.git
+3. Create the following input files:
 
    - `smtps.txt`: A text file containing SMTP server details in the format `smtp|port|username|password`. Each line represents a different SMTP server.
    - `recipients.txt`: A text file containing a list of email recipients, with each email address on a separate line.
@@ -27,9 +27,9 @@ This is a Ruby script for sending bulk emails using multiple SMTP servers and mu
    - `subject.txt`: A text file containing the subject of the email.
    - `message.txt`: A text/html file containing the email message.
 
-3. Make sure your SMTP servers support the specified port (e.g., 587 for TLS/STARTTLS).
+4. Make sure your SMTP servers support the specified port (e.g., 587 for TLS/STARTTLS).
 
-4. Run the script with the following command:
+5. Run the script with the following command:
 
    ```bash
    ruby bulkMSS.rb -s smtps.txt -r recipients.txt -n sender_name.txt -b subject.txt -m message.html -c 10 -t 5
